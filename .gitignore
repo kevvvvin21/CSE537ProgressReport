@@ -9,9 +9,25 @@ __pycache__/
 # huge file
 
 # log
-wandb/
+#wandb/
 
-results/
+results/OfflineCarButton1Gymnasium-v0/ddpm_feasibility_hj_N16_minqc_2025-03-22_s489_425/model1.pickle
+results/OfflineCarButton1Gymnasium-v0/ddpm_feasibility_hj_N16_minqc_2025-03-22_s489_425/model2.pickle
+results/OfflineCarButton1Gymnasium-v0/ddpm_feasibility_hj_N16_minqc_2025-03-22_s489_425/model3.pickle
+results/OfflineCarButton1Gymnasium-v0/ddpm_feasibility_hj_N16_minqc_2025-03-22_s489_425/model4.pickle
+results/OfflineCarButton1Gymnasium-v0/ddpm_feasibility_hj_N16_minqc_2025-03-22_s489_425/model5.pickle
+
+results/OfflineHalfCheetahVelocityGymnasium-v1/ddpm_feasibility_hj_N16_minqc_2025-03-22_s562_7/model1.pickle
+results/OfflineHalfCheetahVelocityGymnasium-v1/ddpm_feasibility_hj_N16_minqc_2025-03-22_s562_7/model2.pickle
+results/OfflineHalfCheetahVelocityGymnasium-v1/ddpm_feasibility_hj_N16_minqc_2025-03-22_s562_7/model3.pickle
+results/OfflineHalfCheetahVelocityGymnasium-v1/ddpm_feasibility_hj_N16_minqc_2025-03-22_s562_7/model4.pickle
+results/OfflineHalfCheetahVelocityGymnasium-v1/ddpm_feasibility_hj_N16_minqc_2025-03-22_s562_7/model5.pickle
+
+results/PointRobot/ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511/model1.pickle
+results/PointRobot/ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511/model2.pickle
+results/PointRobot/ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511/model3.pickle
+results/PointRobot/ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511/model4.pickle
+results/PointRobot/ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511/model5.pickle
 
 .vscode
 
