@@ -1,0 +1,98 @@
+2025-03-22 21:31:29,548 INFO    StreamThr :17276 [internal.py:wandb_internal():90] W&B internal server running at pid: 17276, started at: 2025-03-22 21:31:29.547939
+2025-03-22 21:31:29,552 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: status
+2025-03-22 21:31:29,555 DEBUG   SenderThread:17276 [sender.py:send_request():316] send_request: status
+2025-03-22 21:31:29,557 INFO    WriterThread:17276 [datastore.py:open_for_write():75] open: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\run-xh39pjm8.wandb
+2025-03-22 21:31:29,558 DEBUG   SenderThread:17276 [sender.py:send():302] send: header
+2025-03-22 21:31:29,559 DEBUG   SenderThread:17276 [sender.py:send():302] send: run
+2025-03-22 21:31:29,788 INFO    SenderThread:17276 [dir_watcher.py:__init__():216] watching files in: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files
+2025-03-22 21:31:29,789 INFO    SenderThread:17276 [sender.py:_start_run_threads():913] run started: xh39pjm8 with start time 1742697089.540938
+2025-03-22 21:31:29,789 DEBUG   SenderThread:17276 [sender.py:send():302] send: summary
+2025-03-22 21:31:29,790 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: check_version
+2025-03-22 21:31:29,790 INFO    SenderThread:17276 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2025-03-22 21:31:29,791 DEBUG   SenderThread:17276 [sender.py:send_request():316] send_request: check_version
+2025-03-22 21:31:29,861 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: run_start
+2025-03-22 21:31:29,902 DEBUG   HandlerThread:17276 [meta.py:__init__():35] meta init
+2025-03-22 21:31:29,902 DEBUG   HandlerThread:17276 [meta.py:__init__():50] meta init done
+2025-03-22 21:31:29,903 DEBUG   HandlerThread:17276 [meta.py:probe():216] probe
+2025-03-22 21:31:29,921 DEBUG   HandlerThread:17276 [meta.py:_save_pip():54] save pip
+2025-03-22 21:31:29,936 DEBUG   HandlerThread:17276 [meta.py:_save_pip():68] save pip done
+2025-03-22 21:31:29,936 DEBUG   HandlerThread:17276 [meta.py:_save_conda():75] save conda
+2025-03-22 21:31:30,796 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\conda-environment.yaml
+2025-03-22 21:31:30,796 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-summary.json
+2025-03-22 21:31:30,796 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\requirements.txt
+2025-03-22 21:31:31,905 DEBUG   HandlerThread:17276 [meta.py:_save_conda():85] save conda done
+2025-03-22 21:31:31,905 DEBUG   HandlerThread:17276 [meta.py:probe():254] probe done
+2025-03-22 21:31:31,908 DEBUG   SenderThread:17276 [sender.py:send():302] send: files
+2025-03-22 21:31:31,909 INFO    SenderThread:17276 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2025-03-22 21:31:31,914 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: stop_status
+2025-03-22 21:31:31,914 DEBUG   SenderThread:17276 [sender.py:send_request():316] send_request: stop_status
+2025-03-22 21:31:32,016 DEBUG   SenderThread:17276 [sender.py:send():302] send: telemetry
+2025-03-22 21:31:32,226 INFO    Thread-16 :17276 [upload_job.py:push():138] Uploaded file C:\Users\13051\AppData\Local\Temp\tmpaall5o_fwandb\qothdvmb-wandb-metadata.json
+2025-03-22 21:31:32,812 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\conda-environment.yaml
+2025-03-22 21:31:32,812 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:32,812 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-metadata.json
+2025-03-22 21:31:34,833 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:36,843 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:38,853 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:45,407 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: partial_history
+2025-03-22 21:31:46,904 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:47,028 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: stop_status
+2025-03-22 21:31:47,029 DEBUG   SenderThread:17276 [sender.py:send_request():316] send_request: stop_status
+2025-03-22 21:31:50,100 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: partial_history
+2025-03-22 21:31:50,952 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:52,970 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:54,998 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:57,026 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:31:57,268 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: partial_history
+2025-03-22 21:31:57,269 DEBUG   SenderThread:17276 [sender.py:send():302] send: history
+2025-03-22 21:31:57,269 DEBUG   SenderThread:17276 [sender.py:send():302] send: summary
+2025-03-22 21:31:57,270 INFO    SenderThread:17276 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2025-03-22 21:31:58,039 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-summary.json
+2025-03-22 21:31:59,052 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:00,065 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\config.yaml
+2025-03-22 21:32:01,080 DEBUG   SenderThread:17276 [sender.py:send():302] send: stats
+2025-03-22 21:32:01,081 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:02,154 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: stop_status
+2025-03-22 21:32:02,155 DEBUG   SenderThread:17276 [sender.py:send_request():316] send_request: stop_status
+2025-03-22 21:32:03,103 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:04,461 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: partial_history
+2025-03-22 21:32:04,462 DEBUG   SenderThread:17276 [sender.py:send():302] send: history
+2025-03-22 21:32:04,462 DEBUG   SenderThread:17276 [sender.py:send():302] send: summary
+2025-03-22 21:32:04,463 INFO    SenderThread:17276 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2025-03-22 21:32:05,115 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:05,116 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-summary.json
+2025-03-22 21:32:07,139 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:09,165 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:11,184 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:11,507 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: partial_history
+2025-03-22 21:32:11,508 DEBUG   SenderThread:17276 [sender.py:send():302] send: history
+2025-03-22 21:32:11,508 DEBUG   SenderThread:17276 [sender.py:send():302] send: summary
+2025-03-22 21:32:11,509 INFO    SenderThread:17276 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2025-03-22 21:32:12,193 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-summary.json
+2025-03-22 21:32:13,195 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:14,211 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:16,231 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:17,281 DEBUG   HandlerThread:17276 [handler.py:handle_request():141] handle_request: stop_status
+2025-03-22 21:32:17,281 DEBUG   SenderThread:17276 [sender.py:send_request():316] send_request: stop_status
+2025-03-22 21:32:18,246 INFO    Thread-12 :17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:19,050 WARNING StreamThr :17276 [internal.py:is_dead():387] Internal process exiting, parent pid 30924 disappeared
+2025-03-22 21:32:19,050 ERROR   StreamThr :17276 [internal.py:wandb_internal():149] Internal process shutdown.
+2025-03-22 21:32:19,259 INFO    WriterThread:17276 [datastore.py:close():279] close: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\run-xh39pjm8.wandb
+2025-03-22 21:32:19,307 INFO    HandlerThread:17276 [handler.py:finish():810] shutting down handler
+2025-03-22 21:32:19,496 INFO    SenderThread:17276 [sender.py:finish():1312] shutting down sender
+2025-03-22 21:32:20,545 INFO    SenderThread:17276 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-03-22 21:32:21,264 INFO    SenderThread:17276 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log
+2025-03-22 21:32:21,265 INFO    SenderThread:17276 [dir_watcher.py:finish():392] scan: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files
+2025-03-22 21:32:21,265 INFO    SenderThread:17276 [dir_watcher.py:finish():406] scan save: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\conda-environment.yaml conda-environment.yaml
+2025-03-22 21:32:21,266 INFO    SenderThread:17276 [dir_watcher.py:finish():406] scan save: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\config.yaml config.yaml
+2025-03-22 21:32:21,269 INFO    SenderThread:17276 [dir_watcher.py:finish():406] scan save: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log output.log
+2025-03-22 21:32:21,274 INFO    SenderThread:17276 [dir_watcher.py:finish():406] scan save: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\requirements.txt requirements.txt
+2025-03-22 21:32:21,279 INFO    SenderThread:17276 [dir_watcher.py:finish():406] scan save: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-metadata.json wandb-metadata.json
+2025-03-22 21:32:21,279 INFO    SenderThread:17276 [dir_watcher.py:finish():406] scan save: C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-summary.json wandb-summary.json
+2025-03-22 21:32:21,282 INFO    SenderThread:17276 [file_pusher.py:finish():171] shutting down file pusher
+2025-03-22 21:32:21,283 INFO    SenderThread:17276 [file_pusher.py:join():176] waiting for file pusher
+2025-03-22 21:32:21,568 INFO    Thread-17 :17276 [upload_job.py:push():138] Uploaded file C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\conda-environment.yaml
+2025-03-22 21:32:21,623 INFO    Thread-20 :17276 [upload_job.py:push():138] Uploaded file C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\requirements.txt
+2025-03-22 21:32:21,652 INFO    Thread-21 :17276 [upload_job.py:push():138] Uploaded file C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\wandb-summary.json
+2025-03-22 21:32:21,664 INFO    Thread-18 :17276 [upload_job.py:push():138] Uploaded file C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\config.yaml
+2025-03-22 21:32:21,708 INFO    Thread-19 :17276 [upload_job.py:push():138] Uploaded file C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213129-xh39pjm8\files\output.log

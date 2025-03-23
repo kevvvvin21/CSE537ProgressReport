@@ -1,0 +1,51 @@
+I0322 21:33:41.677248 12460 xla_bridge.py:603] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+I0322 21:33:41.678716 12460 xla_bridge.py:603] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+I0322 21:33:41.679721 12460 xla_bridge.py:603] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+W0322 21:33:41.679721 12460 xla_bridge.py:617] No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+=========Data loading=========
+Load point robot data from: data/point_robot-expert-random-100k.hdf5
+env_max_episode_steps 300
+mean_episode_reward 13.676276430487633
+mean_episode_cost 24.494998902082443
+C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\flax\core\lift.py:112: FutureWarning: jax.tree_flatten is deprecated, and will be removed in a future release. Use jax.tree_util.tree_flatten instead.
+  scopes, treedef = jax.tree_flatten(scope_tree)
+C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\flax\core\lift.py:585: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  leaves = jax.tree_leaves(x)
+C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\flax\core\lift.py:594: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  axis_sizes = set(jax.tree_leaves(axis_sizes))
+C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\flax\linen\transforms.py:249: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  jax.tree_leaves(tree)))
+ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511:   0%|                                                                                                                        | 0/500 [00:00<?, ?it/s]
+
+
+
+
+
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511:  20%|█████████████████████▉                                                                                         | 99/500 [00:29<00:30, 13.26it/s]
+
+
+
+
+
+
+ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511:  40%|███████████████████████████████████████████▊                                                                  | 199/500 [00:44<00:20, 14.48it/s]
+
+
+
+ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511:  60%|█████████████████████████████████████████████████████████████████▊                                            | 299/500 [00:53<00:13, 15.15it/s]
+
+
+
+
+ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511:  80%|███████████████████████████████████████████████████████████████████████████████████████▊                      | 399/500 [01:02<00:06, 14.81it/s]
+
+
+
+
+ddpm_feasibility_hj_N16_minqc_2025-03-22_s587_511: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [01:10<00:00,  7.06it/s]

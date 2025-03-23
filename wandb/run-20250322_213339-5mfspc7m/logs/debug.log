@@ -1,0 +1,26 @@
+2025-03-22 21:33:39,059 INFO    MainThread:5260 [wandb_setup.py:_flush():76] Configure stats pid to 5260
+2025-03-22 21:33:39,059 INFO    MainThread:5260 [wandb_setup.py:_flush():76] Loading settings from C:\Users\13051\.config\wandb\settings
+2025-03-22 21:33:39,059 INFO    MainThread:5260 [wandb_setup.py:_flush():76] Loading settings from C:\Users\13051\Desktop\FISOR-master\wandb\settings
+2025-03-22 21:33:39,059 INFO    MainThread:5260 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2025-03-22 21:33:39,059 INFO    MainThread:5260 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'launcher\\examples\\train_offline.py', 'program': 'C:\\Users\\13051\\Desktop\\FISOR-master\\launcher\\examples\\train_offline.py'}
+2025-03-22 21:33:39,060 INFO    MainThread:5260 [wandb_init.py:_log_setup():461] Logging user logs to C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213339-5mfspc7m\logs\debug.log
+2025-03-22 21:33:39,060 INFO    MainThread:5260 [wandb_init.py:_log_setup():462] Logging internal logs to C:\Users\13051\Desktop\FISOR-master\wandb\run-20250322_213339-5mfspc7m\logs\debug-internal.log
+2025-03-22 21:33:39,061 INFO    MainThread:5260 [wandb_init.py:init():495] calling init triggers
+2025-03-22 21:33:39,061 INFO    MainThread:5260 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'_fields': {'model_cls': 'FISOR', 'cost_limit': 10, 'actor_lr': 0.0003, 'critic_lr': 0.0003, 'value_lr': 0.0003, 'cost_temperature': 2, 'reward_temperature': 5, 'T': 5, 'N': 8, 'M': 0, 'clip_sampler': True, 'actor_dropout_rate': 0.1, 'actor_num_blocks': 3, 'actor_weight_decay': None, 'decay_steps': 3000000, 'actor_layer_norm': True, 'value_layer_norm': False, 'actor_tau': 0.001, 'actor_architecture': 'ln_resnet', 'critic_objective': 'expectile', 'critic_hyperparam': 0.9, 'cost_critic_hyperparam': 0.9, 'critic_type': 'hj', 'cost_ub': 150, 'beta_schedule': 'vp', 'actor_objective': 'feasibility', 'sampling_method': 'ddpm', 'extract_method': 'minqc', 'cost_scale': 25}, '_locked': False, '_type_safe': True, '_convert_dict': True}
+2025-03-22 21:33:39,062 INFO    MainThread:5260 [wandb_init.py:init():548] starting backend
+2025-03-22 21:33:39,063 INFO    MainThread:5260 [wandb_init.py:init():552] setting up manager
+2025-03-22 21:33:39,075 INFO    MainThread:5260 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-22 21:33:39,082 INFO    MainThread:5260 [wandb_init.py:init():558] backend started and connected
+2025-03-22 21:33:39,089 INFO    MainThread:5260 [wandb_init.py:init():636] updated telemetry
+2025-03-22 21:33:39,090 INFO    MainThread:5260 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2025-03-22 21:33:39,356 INFO    MainThread:5260 [wandb_run.py:_on_init():1982] communicating current version
+2025-03-22 21:33:39,604 INFO    MainThread:5260 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.19.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-03-22 21:33:39,604 INFO    MainThread:5260 [wandb_init.py:init():700] starting run threads in backend
+2025-03-22 21:33:41,659 INFO    MainThread:5260 [wandb_run.py:_console_start():1962] atexit reg
+2025-03-22 21:33:41,660 INFO    MainThread:5260 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2025-03-22 21:33:41,660 INFO    MainThread:5260 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2025-03-22 21:33:41,660 INFO    MainThread:5260 [wandb_run.py:_redirect():1907] Redirects installed.
+2025-03-22 21:33:41,660 INFO    MainThread:5260 [wandb_init.py:init():732] run started, returning control to user process
+2025-03-22 21:35:01,321 WARNING MsgRouterThr:5260 [router.py:message_loop():76] message_loop has been closed

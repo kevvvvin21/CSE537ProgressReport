@@ -1,0 +1,23 @@
+=========Data loading=========
+Load point robot data from: data/point_robot-expert-random-100k.hdf5
+Traceback (most recent call last):
+  File "C:\Users\13051\Desktop\FISOR-master\launcher\examples\train_offline.py", line 143, in <module>
+    app.run(main)
+  File "C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\absl\app.py", line 303, in run
+    _run_main(main, args)
+  File "C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\absl\app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "C:\Users\13051\Desktop\FISOR-master\launcher\examples\train_offline.py", line 139, in main
+    call_main(parameters)
+  File "C:\Users\13051\Desktop\FISOR-master\launcher\examples\train_offline.py", line 50, in call_main
+    ds = DSRLDataset(env, critic_type=details['agent_kwargs']['critic_type'],
+  File "C:\Users\13051\Desktop\FISOR-master\.\jaxrl5\data\dsrl_datasets.py", line 17, in __init__
+    f = h5py.File(data_location, 'r')
+  File "C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\h5py\_hl\files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "C:\Users\13051\miniconda3\envs\FISOR\lib\site-packages\h5py\_hl\files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'data/point_robot-expert-random-100k.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

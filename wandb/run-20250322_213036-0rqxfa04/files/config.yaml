@@ -1,0 +1,69 @@
+wandb_version: 1
+
+_convert_dict:
+  desc: null
+  value: true
+_fields:
+  desc: null
+  value:
+    M: 0
+    N: 8
+    T: 5
+    actor_architecture: ln_resnet
+    actor_dropout_rate: 0.1
+    actor_layer_norm: true
+    actor_lr: 0.0003
+    actor_num_blocks: 3
+    actor_objective: feasibility
+    actor_tau: 0.001
+    actor_weight_decay: null
+    beta_schedule: vp
+    clip_sampler: true
+    cost_critic_hyperparam: 0.9
+    cost_limit: 10
+    cost_scale: 25
+    cost_temperature: 2
+    cost_ub: 150
+    critic_hyperparam: 0.9
+    critic_lr: 0.0003
+    critic_objective: expectile
+    critic_type: hj
+    decay_steps: 3000000
+    extract_method: minqc
+    model_cls: FISOR
+    reward_temperature: 5
+    sampling_method: ddpm
+    value_layer_norm: false
+    value_lr: 0.0003
+_locked:
+  desc: null
+  value: false
+_type_safe:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.21
+    start_time: 1742697036.93877
+    t:
+      1:
+      - 12
+      - 45
+      - 55
+      2:
+      - 12
+      - 45
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.21
+      5: 0.13.1
+      8:
+      - 3
+      - 5

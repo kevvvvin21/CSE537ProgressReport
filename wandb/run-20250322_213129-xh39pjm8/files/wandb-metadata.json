@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.9.21",
+    "heartbeatAt": "2025-03-23T02:31:29.903561",
+    "startedAt": "2025-03-23T02:31:29.511403",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--env_id",
+        "29",
+        "--config",
+        "configs/train_config.py:fisor"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\13051\\Desktop\\FISOR-master\\launcher\\examples\\train_offline.py",
+    "codePath": "launcher\\examples\\train_offline.py",
+    "host": "kevin-laptop",
+    "username": "13051",
+    "executable": "C:\\Users\\13051\\miniconda3\\envs\\FISOR\\python.exe"
+}
